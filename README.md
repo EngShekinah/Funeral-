@@ -365,10 +365,12 @@ The FHMS implements several security measures:
 ## Deployment
 
 ### Production Deployment Considerations
-1. Use a production-grade database (PostgreSQL or MySQL)
+1. Use a production-grade database (PostgreSQL or mongoDB)
 2. Configure proper HTTPS with a valid certificate
 3. Implement rate limiting for API endpoints
 4. Set up automated backups for database and uploaded files
 5. Use environment-specific configuration
 6. Implement monitoring and logging solutions
 7. Consider containerization with Docker for consistent deployment
+
+https://fhms.vercel.app/
